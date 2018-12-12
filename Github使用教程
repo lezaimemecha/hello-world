@@ -1,0 +1,110 @@
+GitHub是一个用于版本控制和协作的代码托管平台；有repositories, branches, commits, and Pull Requests等重要的概念
+
+(1)注册：
+
+①进入https://github.com/，填写账户密码及邮箱
+
+②登录账号及邮箱进行账户验证
+
+③重新登录账户即可
+
+(2)使用：
+
+①主要将介绍以下内容：
+
+    a：如何创建和使用存储库
+
+    b：如何启动和管理新的分支
+
+    c：如何对文件进行更改，并将其提交推送到GitHub
+
+    d：打开并合并一个推送请求
+
+②第一步：新建一个存储库
+
+    一个存储库通常用来管理一个项目；存储库通常包括文件夹，文件，图像，视频，电子表格和数据集等；推荐使用一个README文件来介绍你的项目概要；你的文件可以被用来储存想法、资源，甚至与他人分享和讨论；
+
+    创建存储库操作：
+
+    a：在个人github主页(如https://github.com/lezaimemecha)的左上角，点击+并选择New repository
+
+    b：给你的存储库命名(如hello-world)
+
+    c：写下项目的简介
+
+    d：选择" Initialize this repository with a README"选项并打勾，点击Creat repository按钮如下：
+
+    
+
+③第二步：新建一个分支
+
+    分支是用来同时处理存储库不同版本的方法；默认情况下你的存储库会有一个分支master作为主分支；在把项目的修改和更新提交给主分支master前，我们需要在各个分支上进行编写和测试；当你在分支上工作时，如果其他人对主分支提交了更改，你可以通过Pull Requests操作来更新内容。
+
+    创建新分支操作：
+
+    a：进入你的存储库地址(比如上面见的hello-word https://github.com/lezaimemecha/hello-world) 
+
+    b：打开文件列表上部的branch: master下拉框
+
+    c：在文本框里输入新分支的名字(如readme-edits)
+
+    d：输入名字后点击enter键即完成
+
+    
+
+④第三步：在分支上进行内容的修改并提交
+
+    在Github上，每一个被修改并保存的内容(代码/注释/资料等)被称为commits;每一个commit都有一个备注信息；该备注信息展示了内容的修改历史；这样方便其他成员更加理解内容被修改了什么地方及修改原因
+
+    分支修改并提交操作：
+
+    a：确保自己在指定的分支地址上(如readme-edits分支 https://github.com/lezaimemecha/hello-world/tree/read_me_edits)
+
+    b：单击文件视图右上角的铅笔图标进行编辑
+
+    c：在文本编译框中添加新的内容进行更新
+
+    d：在文本编译框的下侧填写commit的备注信息(包括标题及内容；比如标题为完成Readme文件；内容是添加了我最爱的名言)
+
+    e：点击最下面的Commit changes按钮
+
+    
+
+    完成上述操作后，你的readme-edits分支的Readme文件实际已经进行的变更，与主分支master不同了；
+
+⑤第四步：进行'Pull Request'操作
+
+    'Pull Request'(可译为合并请求)是Github合作开发的核心步骤；当你提交一个'Pull Request'时，你是在向他人提交自己对项目内容的变更并希望他人审核后能够合并到每一个分支上；变化会用两道横线隔开；增加或减少的的内容会分别用绿色和红色表示出来；
+
+    'Pull Request'操作：
+
+    a：确保自己在指定的分支地址上(如readme-edits分支 https://github.com/lezaimemecha/hello-world/tree/read_me_edits)
+
+    b：点击Pull requests按钮；再点击New Pull Request右侧的按钮
+
+    c：在Example Comparisons地址上(https://github.com/lezaimemecha/hello-world/compare/master@%7B1day%7D...master)点击readme-edits分支，会显示所有项目内容的修改历史；
+
+    d：仔细检查修改历史中变更&新增&减少的部分，确认正确性
+
+    e：确认修改正确后点击Create Pull Request按钮
+
+    f：进入信息确认页面(https://github.com/lezaimemecha/hello-world/compare/master...read_me_edits)确认commit备注信息；再点击Create Pull Request按钮
+
+⑥第五步：合并'Pull Request'请求
+
+在最后一步中，我们将readme-edits分支上修改的内容合并到master主枝上；
+
+    a：在Pull requests页面下点击刚才提交的Finish README
+
+    b：点击Merge Pull Request按钮
+
+    c：点击Confirm Message按钮
+
+    d：在完成合并后可以(选择性也可以保留)点击Delect Branch直接将分支readme-edits删除
+
+    e：查看master的变更历史可以在Pull Request中的closed项目列表中找到目标项目，点击查看历史即可
+--------------------- 
+作者：乐在么么茶 
+来源：CSDN 
+原文：https://blog.csdn.net/lezaimemecha/article/details/84969353 
+版权声明：本文为博主原创文章，转载请附上博文链接！
